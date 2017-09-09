@@ -8,106 +8,106 @@ is_draft: true
 
 ## Navigation/View
 
-`MMB` - Orbit
-  -> `Shift` - Pan
-  -> `Ctrl` - Zoom
+`MMB` - Orbit  
+  -> `Shift` - Pan  
+  -> `Ctrl` - Zoom  
 
-`Num0` - Camera/Scene view
-`Num5` - Persp/Ortho
-`Num1/3/7/9` - different ortho views
-`Num.` - Zoom Extents
-`Num/` - Toggle Global/Local mode ("solo"/"exclusive" mode for edited object)
+`Num0` - Camera/Scene view  
+`Num5` - Persp/Ortho  
+`Num1/3/7/9` - different ortho views  
+`Num.` - Zoom Extents  
+`Num/` - Toggle Global/Local mode ("solo"/"exclusive" mode for edited object)  
 
-`Home` - view camera center (to fill 3d vp with camera clip)
-  Lock camera to view menu - to move camera with 3d vp commands
+`Home` - view camera center (to fill 3d vp with camera clip)  
+  Lock camera to view menu - to move camera with 3d vp commands  
 
-`Ctrl+Alt+NumPad0` - move active camera to current viewport
+`Ctrl+Alt+NumPad0` - move active camera to current viewport  
 
-`Z` - toggle wireframe mode
+`Z` - toggle wireframe mode  
 
 `Shift+Space` & `Ctrl+UpArrow` & `Ctrl+DownArrow` - Toggle Maximize for active view
 
 ## Selection
 
-`Shift+A` - Add Menu
+`Shift+A` - Add Menu  
 
-`F6` - View operator panel for current tool as popup
+`F6` - View operator panel for current tool as popup  
 
-`tab` - toggle object/edit mode
+`tab` - toggle object/edit mode  
 
-`A` - toggle selection
+`A` - toggle selection  
 
-`Shift+G` - Select Grouped Menu
-`Ctrl+G` - create new Group
-`Ctrl+Shift+G` - add all objects to active object's group
+`Shift+G` - Select Grouped Menu  
+`Ctrl+G` - create new Group  
+`Ctrl+Shift+G` - add all objects to active object's group  
 
-`Alt+RMB` - select edge/face loop (after 1 item already selected)
+`Alt+RMB` - select edge/face loop (after 1 item already selected)  
 
-`C` - circle (brush) selection, scrollwheel to set brush size
-`B` - box select
-`Ctrl+LMB` - freeform (lasso) select
+`C` - circle (brush) selection, scrollwheel to set brush size  
+`B` - box select  
+`Ctrl+LMB` - freeform (lasso) select  
 
-`L` - select linked (cumulative)
-`Ctrl+L` - select all connected
-`Shift+G` - select similar
+`L` - select linked (cumulative)  
+`Ctrl+L` - select all connected  
+`Shift+G` - select similar  
 
-`H` - hide selected
-`Shift+H` - set restrict view (hide others)
-`Alt+H` - clear restrict view
+`H` - hide selected  
+`Shift+H` - set restrict view (hide others)  
+`Alt+H` - clear restrict view  
 
-`X` - delete/dissolve
-  -> in object mode doesn't delete children! use outliner menu!
-  -> also try Limited Dissolve to decimate polygons by angle
-`Ctrl+X` - Dissolve Selected
+`X` - delete/dissolve  
+  -> in object mode doesn't delete children! use outliner menu!  
+  -> also try Limited Dissolve to decimate polygons by angle  
+`Ctrl+X` - Dissolve Selected  
 
 `M` - Move to Layer Menu
 
 ## Transformation
 
-`Ctrl+space` - Toggle 3D manipulator (Pie)
-  -> `Shift+LMB Drag` - on a manipulator axis transforms on perpendicular plane to axis
-`Alt+space` - Transformation Orientation Menu
+`Ctrl+space` - Toggle 3D manipulator (Pie)  
+  -> `Shift+LMB Drag` - on a manipulator axis transforms on perpendicular plane to axis  
+`Alt+space` - Transformation Orientation Menu  
 
-`G` - grab/move
-  -> `G` - again to "edge slide" vertices!
-`R` - rotate (press twice for trackball rotation)
-`S` - scale
-  -> `X,Y,Z` - constrain to single axis
-  -> `Shift+X,Y,Z` - add constraint axis to transform on a plane
-    -> double tap axis keys to toggle local/global
+`G` - grab/move  
+  -> `G` - again to "edge slide" vertices!  
+`R` - rotate (press twice for trackball rotation)  
+`S` - scale  
+  -> `X,Y,Z` - constrain to single axis  
+  -> `Shift+X,Y,Z` - add constraint axis to transform on a plane  
+    -> double tap axis keys to toggle local/global  
     -> type in numbers to specify exact transformation along selected axis
 
 ### Pivot
 
-`Alt+.` - Active Element
-`Ctrl+.` - Individual Origins
-`Ctrl+,` - Median Point
-`,` - Bounding Box
-`.` - 3D Cursor
+`Alt+.` - Active Element  
+`Ctrl+.` - Individual Origins  
+`Ctrl+,` - Median Point  
+`,` - Bounding Box  
+`.` - 3D Cursor  
 
-`Alt+,` - Manipulate Center Point
+`Alt+,` - Manipulate Center Point  
 
-`Alt+G/R/S` - reset translation/rotation/scale
-`Ctrl+A` - Apply transform (T/R/S)
+`Alt+G/R/S` - reset translation/rotation/scale  
+`Ctrl+A` - Apply transform (T/R/S)  
 
-`Ctrl+P` - set parent (select child, then parent, then `Ctrl+P`)
-`Shift+Ctrl+P` - parent without inverse menu
+`Ctrl+P` - set parent (select child, then parent, then `Ctrl+P`)  
+`Shift+Ctrl+P` - parent without inverse menu  
 `Alt+P` - clear parent menu (use it after parenting to clear hidden inverse transform!)
 
 ### Snapping
 
-`Ctrl+shift+TAB` - set snap type
-`shit+TAB` - toggle snap
-`Shift+S` - Snap Menu (snaps either selection, or cursor)
+`Ctrl+shift+TAB` - set snap type  
+`shit+TAB` - toggle snap  
+`Shift+S` - Snap Menu (snaps either selection, or cursor)  
 `Ctrl+drag` - force snap
 
 ## Object Mode
 
-`Ctrl+B` - sets the render border, `Ctrl+Alt+B` to clear
+`Ctrl+B` - sets the render border, `Ctrl+Alt+B` to clear  
 
-`Ctrl+J` - Join Objects
+`Ctrl+J` - Join Objects  
 
-`L` - Make Local Menu (Linking)
+`L` - Make Local Menu (Linking)  
 
 `Ctrl+A` - Apply Transformation menu
 
@@ -117,85 +117,85 @@ is_draft: true
 
 `Ctrl+Num+` & `Ctrl+Num-` - grow/shrink selection
 
-`W` - specials menu (Subdivide, Bevel, Bridge, etc)
-`Ctrl+V` - vertex tools
-`Ctrl+E` - edge tools (e.g.: Mark Sharp, Mark Seam (UV))
-`Ctrl+f` - face tools
-`Alt+M` - Merge Menu
-`U` - UV Mapping Menu
+`W` - specials menu (Subdivide, Bevel, Bridge, etc)  
+`Ctrl+V` - vertex tools  
+`Ctrl+E` - edge tools (e.g.: Mark Sharp, Mark Seam (UV))  
+`Ctrl+f` - face tools  
+`Alt+M` - Merge Menu  
+`U` - UV Mapping Menu  
 `Shift+G` - Select Similar Menu
 
-`E` - extrude, extend curve (bezier, path, etc)
-  - MUST undo if canceling to clean up the shit it leaves behind
-`Alt+E` - Extrude Menu (choose region/individual)
-`Ctrl+LMB Click` - Quick Extrude Selection
-`Ctrl+B` - Bevel
-`Ctrl+Shift+B` - Vertex Bevel (handy for making circles inside geom)
-`I` - Inset tool
-  -> `Ctrl` - Depth, `O` - Outset, `B` - Boundary
-`Alt+R` - Spin Tool (i.e. Loft, around cursor)
-`Alt+S` - shrink/fatten, push/scale along normal
+`E` - extrude, extend curve (bezier, path, etc)  
+  - MUST undo if canceling to clean up the shit it leaves behind  
+`Alt+E` - Extrude Menu (choose region/individual)  
+`Ctrl+LMB Click` - Quick Extrude Selection  
+`Ctrl+B` - Bevel  
+`Ctrl+Shift+B` - Vertex Bevel (handy for making circles inside geom)  
+`I` - Inset tool  
+  -> `Ctrl` - Depth, `O` - Outset, `B` - Boundary  
+`Alt+R` - Spin Tool (i.e. Loft, around cursor)  
+`Alt+S` - shrink/fatten, push/scale along normal  
 
-`Y` - Split selection (essentially: cut out, by duplicating vertices)
-`K` - Knife tool
-  -> `Ctrl` - midpoint, `C` - constraint snap, `Shift` - disable constraint
-  -> `E` - start another cut
-`Shift+K` - Select Knife tool (works on selection)
-`J` - connect vertices (creates an edge between two verts, splits faces, "lightning bolt")
-`Ctrl+R` - Loop Cut and Slide Tool
+`Y` - Split selection (essentially: cut out, by duplicating vertices)  
+`K` - Knife tool  
+  -> `Ctrl` - midpoint, `C` - constraint snap, `Shift` - disable constraint  
+  -> `E` - start another cut  
+`Shift+K` - Select Knife tool (works on selection)  
+`J` - connect vertices (creates an edge between two verts, splits faces, "lightning bolt")  
+`Ctrl+R` - Loop Cut and Slide Tool  
 
-`F` - Fill (make edge/face / convert to single N-gon; Sort Vertices if needs be)
+`F` - Fill (make edge/face / convert to single N-gon; Sort Vertices if needs be)  
 `Alt+F` - Fill with triangles
 
-`O` - Proportional Edit mode toggle (for soft selections)
+`O` - Proportional Edit mode toggle (for soft selections)  
 `Alt+O` - Proportional Editing, connected only
 
-`Ctrl+T` - Triangulate Faces
-`Alt+P` - Poke Faces (subdivide so each quad turns into 4 tris in an X shape)
-`Alt+J` - Convert tri selection to Quads
+`Ctrl+T` - Triangulate Faces  
+`Alt+P` - Poke Faces (subdivide so each quad turns into 4 tris in an X shape)  
+`Alt+J` - Convert tri selection to Quads  
 
-`Ctrl+N` - make normals consistent (recalculate normals)
+`Ctrl+N` - make normals consistent (recalculate normals)  
 
-`Shift+E` - set creasing (for subdiv)
+`Shift+E` - set creasing (for subdiv)  
 
 ### UV Editor
 
-`P` - Pin
-`Alt+P` - Unpin
-`Ctrl+P` - Pack Islands
-`W` - Welding Menu
-`V` - Stitch
+`P` - Pin  
+`Alt+P` - Unpin  
+`Ctrl+P` - Pack Islands  
+`W` - Welding Menu  
+`V` - Stitch  
 
-`Q` - UV Sculpt Tool (use the Toolshelf `T` to change params)
+`Q` - UV Sculpt Tool (use the Toolshelf `T` to change params)  
   -> `F` - change brush radius, `Shift+F` - change brush strength
 
 ## Animation
 
-`I` - insert keyframe menu (mouse over context sensitive)
-`Alt+A` - play/pause animation
-`Shift+left/right` - go to beginning/end of animation
+`I` - insert keyframe menu (mouse over context sensitive)  
+`Alt+A` - play/pause animation  
+`Shift+left/right` - go to beginning/end of animation  
 `T` - set keyframe interpolation mode
 
 ## Useful Keyboard Shortcuts
 
-`Shift+R` - repeat previous command
+`Shift+R` - repeat previous command  
 
-`Shift+NumPad /` - edit linked library (addon)
+`Shift+NumPad /` - edit linked library (addon)  
 
-`Ctrl+2` - add subdiv modifier with detail set to 2
+`Ctrl+2` - add subdiv modifier with detail set to 2  
 
-`Shift+D` - duplicate object
-`Alt+D` - instantiate object
-`Ctrl+L` - make links (to e.g. material)
-`Shift+Ctrl+Alt+C` - set origin
+`Shift+D` - duplicate object  
+`Alt+D` - instantiate object  
+`Ctrl+L` - make links (to e.g. material)  
+`Shift+Ctrl+Alt+C` - set origin  
 
-`P` - Separate part of the object into a new one
+`P` - Separate part of the object into a new one  
 
-`V` - set handle type (for curve controls, and animation keyframes)
-`Alt+C` - toggle cyclic (for curves)
-`Alt+C` - Convert to (mesh/curves, in object mode)
+`V` - set handle type (for curve controls, and animation keyframes)  
+`Alt+C` - toggle cyclic (for curves)  
+`Alt+C` - Convert to (mesh/curves, in object mode)  
 
-`F12` - Render
+`F12` - Render  
 
 `Ctrl+Shift+RMB` - (Compositing) Connect selected node to viewer
 
