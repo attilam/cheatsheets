@@ -49,6 +49,10 @@ end
 ## Strings and Symbols
 
 ```ruby
+# string to number
+'45'.to_i
+'4.5'.to_f
+
 # string to symbol
 "Balta Ceruza".gsub(/\s+/, '_').downcase.to_sym # results in :balta_ceruza
 
@@ -198,6 +202,9 @@ end
 filePath = File.expand_path('relative_path_to_file', File.dirname(__FILE__))
 contents = File.open(filePath, 'r').read
 
+# File.write to file in one line, before Ruby 1.9
+File.open('text.txt', 'w') { |f| f.write('blah') }
+
 # list files in a directory
 Dir.chdir 'Work' # cd Work; Dir.pwd contains pwd
 
@@ -210,6 +217,9 @@ end
 ## Misc Stuff
 
 ```ruby
+# access environment variables
+puts ENV['PATH']
+
 # ERB
 require 'erb'
 include ERB::Util # for html_escape, url_encode
@@ -218,11 +228,15 @@ puts ERB.new(template).result(binding) # 'binding' == object's context
 
 puts html_escape("a > 0")
 
-# access environment variables
-puts ENV['PATH']
+# JSON
+require "json"
+
+profile = JSON.parse(File.read('profile.json'))
+
+puts JSON.dump(profile)
 
 # get item YAML front matter
-require "safe_yaml/load"
+require "safe_yaml/load" # use SafeYAML to avoid arbitrary code execution exploits
 
 if item =~ /\A(---\s*\n.*?\n?)^((---|\.\.\.)\s*$\n?)/m
   metadata = SafeYAML.load($1)
