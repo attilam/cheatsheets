@@ -140,7 +140,7 @@ $ git checkout -- octocat.txt # rollback until last change of octocat.txt
 $ git branch # show current branch
 $ git branch <branchname>
 $ git branch -d <branchname> # delete a branch
-```bash
+```
 
 ## Forking on GitHub
 
