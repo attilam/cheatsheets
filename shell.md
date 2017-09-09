@@ -36,4 +36,6 @@ Use it!
 
 ## grep
 
+```shell
 $ asar list app.asar | grep -v "^/node" # every line NOT (-v) starting with (^) "/node"
+```
