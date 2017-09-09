@@ -51,15 +51,14 @@ var num = Number('3.14');
 
 ## Operators
 
-==, and != only test for value equalty `5 == "5" // true`
-===, and !== operators test for value AND type `5 === "5" // false`
-
+`==`, and `!=` only test for value equalty `5 == "5" // true`  
+`===`, and `!==` operators test for value AND type `5 === "5" // false`
 
 ## Loops
 
 ```js
 for(var i=0; i<10; i++) {
-	console.log(i);
+  console.log(i);
 }
 ```
 
@@ -70,11 +69,11 @@ var pets = ['cat', 'dog', 'elephant'];
 pets.push('dolphin');
 
 for(var i=0; i<pets.length; i++) {
-	console.log(pets[i]);
+  console.log(pets[i]);
 }
 
 var filtered = pets.filter(function(pet) {
-	return (pet !== 'elephant');
+  return (pet !== 'elephant');
 });
 ```
 
@@ -82,9 +81,9 @@ var filtered = pets.filter(function(pet) {
 
 ```js
 var pizza = {
-	toppings: ['cheese', 'sauce', 'pepperoni'],
-	crust: 'deep dish',
-	serves: 2
+  toppings: ['cheese', 'sauce', 'pepperoni'],
+  crust: 'deep dish',
+  serves: 2
 }
 
 // two ways for accessors:
@@ -100,7 +99,7 @@ Functions defined inside other functions have access to their parent function's 
 
 ```js
 function multiply(x, mult) {
-	return x*mult;
+  return x*mult;
 }
 
 multiply(2, 4);
@@ -110,6 +109,6 @@ IIFE (Immediately Invoked Function Expression) is a common pattern for creating 
 
 ```js
 (function() {
-	// variables defined here can't be accessed outside
+  // variables defined here can't be accessed outside
 })(); // the function is immediately invoked
 ```

@@ -26,13 +26,13 @@ from math import ceil, floor
 
 ```python
 def add(a, b):
-	return a+b
+    return a+b
 
 a=5
 
 def func():
-	global a # without this a local version would be used
-	return a*a
+    global a # without this a local version would be used
+    return a*a
 
 (lambda x: x>2)(3) # true
 ```
@@ -41,22 +41,22 @@ def func():
 
 ```python
 class Car(object):
-	kind = "vehicle" # class attribute
+    kind = "vehicle" # class attribute
 
-	# initializer
-	def __init__(self):
-		print("I'm new!")
-		self.speed = 0
+    # initializer
+    def __init__(self):
+        print("I'm new!")
+        self.speed = 0
 
-	def drive(self, speed):
-		print "driving at %f mph" % speed
-		self.speed = speed
+    def drive(self, speed):
+        print "driving at %f mph" % speed
+        self.speed = speed
 
-	@classmethod
-	def clm(cls):
-		print "class something"
+    @classmethod
+    def clm(cls):
+        print "class something"
 
-	@staticmethod
-	def staticsomething():
-		print "something else"
+    @staticmethod
+    def staticsomething():
+        print "something else"
 ```

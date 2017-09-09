@@ -80,5 +80,5 @@ Save patchers as abstractions so they can be used in Max like standard objects. 
 
 `loadmess message` - sends message when the patcher is loaded (double-click to send manually)
 
-`print` - log to Max console.
+`print` - log to Max console.  
 `meter~` - signal meter
