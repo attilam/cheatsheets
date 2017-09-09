@@ -125,8 +125,7 @@ is_draft: true
 `U` - UV Mapping Menu  
 `Shift+G` - Select Similar Menu
 
-`E` - extrude, extend curve (bezier, path, etc)  
-  - MUST undo if canceling to clean up the shit it leaves behind  
+`E` - extrude, extend curve (bezier, path, etc; MUST undo if canceling to clean up geo!)  
 `Alt+E` - Extrude Menu (choose region/individual)  
 `Ctrl+LMB Click` - Quick Extrude Selection  
 `Ctrl+B` - Bevel  
