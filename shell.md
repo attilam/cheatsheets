@@ -34,6 +34,19 @@ Use it!
 `"` - Split vertically  
 `%` - Split horizontally  
 
+## Directory Stacks
+
+
+Push a directory onto stack and enter it
+```shell
+$ pushd /dir/name
+```
+
+pop directory off, go back to previous
+```shell
+$ popd
+```
+
 ## grep
 
 ```shell
