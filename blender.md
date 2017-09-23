@@ -19,13 +19,15 @@ is_draft: true
 `Num/` - Toggle Global/Local mode ("solo"/"exclusive" mode for edited object)  
 
 `Home` - view camera center (to fill 3d vp with camera clip)  
-  Lock camera to view menu - to move camera with 3d vp commands  
 
-`Ctrl+Alt+NumPad0` - move active camera to current viewport  
+`Ctrl+Alt+Num0` - move active camera to current view  
 
 `Z` - toggle wireframe mode  
+`Shift+Z` - Toggle viewport render mode  
 
-`Shift+Space` & `Ctrl+UpArrow` & `Ctrl+DownArrow` - Toggle Maximize for active view
+`Shift+Space` & `Ctrl+UpArrow` & `Ctrl+DownArrow` - Toggle Maximize for active view  
+
+Properties Panel (`N`) -> `Lock camera to view` - to move active camera with 3d viewport commands  
 
 ## Selection
 
@@ -75,7 +77,9 @@ is_draft: true
   -> `X,Y,Z` - constrain to single axis  
   -> `Shift+X,Y,Z` - add constraint axis to transform on a plane  
     -> double tap axis keys to toggle local/global  
-    -> type in numbers to specify exact transformation along selected axis
+    -> type in numbers to specify exact transformation along selected axis  
+
+With a camera selected enter Camera View (`Num0`), and the transform tools can be used to tweak it easily.  
 
 ### Pivot
 
@@ -90,7 +94,7 @@ is_draft: true
 `Alt+G/R/S` - reset translation/rotation/scale  
 `Ctrl+A` - Apply transform (T/R/S)  
 
-`Ctrl+P` - set parent (select child, then parent, then `Ctrl+P`)  
+`Ctrl+P` - set parent (select child(ren), then parent, then `Ctrl+P`)  
 `Shift+Ctrl+P` - parent without inverse menu  
 `Alt+P` - clear parent menu (use it after parenting to clear hidden inverse transform!)
 
@@ -170,10 +174,18 @@ is_draft: true
 
 ## Animation
 
-`I` - insert keyframe menu (mouse over context sensitive)  
+`I` - insert keyframe (context sensitive: control under mouse is keyframed, or popup if in 3D view)  
+
+`T` - set keyframe interpolation mode  
+
 `Alt+A` - play/pause animation  
-`Shift+left/right` - go to beginning/end of animation  
-`T` - set keyframe interpolation mode
+`Shift+left/right` - go to first/last frame of animation  
+
+## Node Editor
+
+`Ctrl+T` - Add Texture Mapping nodes to selected node  
+
+`Ctrl+Shift+RMB` (Compositing) - Connect selected node to Viewer node  
 
 ## Useful Keyboard Shortcuts
 
@@ -186,7 +198,7 @@ is_draft: true
 `Shift+D` - duplicate object  
 `Alt+D` - instantiate object  
 `Ctrl+L` - make links (to e.g. material)  
-`Shift+Ctrl+Alt+C` - set origin  
+`Ctrl+Shift+Alt+C` - set origin  
 
 `P` - Separate part of the object into a new one  
 
@@ -196,7 +208,7 @@ is_draft: true
 
 `F12` - Render  
 
-`Ctrl+Shift+RMB` - (Compositing) Connect selected node to viewer
+`E` (w. mouse over a control) - Pick value for control in viewport (e.g. for Depth of Field Distance, etc.)
 
 ## Misc stuff
 
@@ -213,8 +225,6 @@ is_draft: true
   - press `Ctrl+A` to scale vertices (i.e. skin thickness)
 - select 2 vertices and use 'Select Vertex Path' (`W` menu) to select all the edges between them (cool to mark UV seams for example)
 - the border of the camera view is selectable like any object, transform tools work on it!
-
-- In the Compositing Node editor create a Viewer node, enable background image, and connect any node's output to it via `Ctrl+Shift+RMB`
 
 - Solving Addon Troubles
   - duplicate addons: start blender in terminal, open the Addons panel, it'll show the paths
@@ -246,6 +256,7 @@ is_draft: true
 ## Addons
 
 - Blender Cloud (for sync)
+  - `Ctrl+Shift+Alt+A` - Download texture
 
 - Enhanced 3D Cursor
   - https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/3D_interaction/Enhanced_3D_Cursor
@@ -281,7 +292,7 @@ is_draft: true
   - `Z` - Shading
   - `Q` - View Directions
   - `.` - Pivot
-  - `Tab+Shift+Ctrl` - Snapping
+  - `Tab+Ctrl+Shift` - Snapping
 
 - F2 (builtin)
   - massively enhanced fill polygon function `F`
