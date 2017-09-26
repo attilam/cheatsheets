@@ -43,7 +43,8 @@ Properties Panel (`N`) -> `Lock camera to view` - to move active camera with 3d 
 `Ctrl+G` - create new Group  
 `Ctrl+Shift+G` - add all objects to active object's group  
 
-`Alt+RMB` - select edge/face loop (after 1 item already selected)  
+`Ctrl+RMB` - select vertex/edge/face path (after 1 item already selected)  
+`Alt+RMB` - select vertex/edge/face loop (mouse direction to item midpoint decides loop orientation)  
 
 `C` - circle (brush) selection, scrollwheel to set brush size  
 `B` - box select  
@@ -132,10 +133,13 @@ With a camera selected enter Camera View (`Num0`), and the transform tools can b
 `E` - extrude, extend curve (bezier, path, etc; MUST undo if canceling to clean up geo!)  
 `Alt+E` - Extrude Menu (choose region/individual)  
 `Ctrl+LMB Click` - Quick Extrude Selection  
+
 `Ctrl+B` - Bevel  
 `Ctrl+Shift+B` - Vertex Bevel (handy for making circles inside geom)  
+
 `I` - Inset tool  
   -> `Ctrl` - Depth, `O` - Outset, `B` - Boundary  
+
 `Alt+R` - Spin Tool (i.e. Loft, around cursor)  
 `Alt+S` - shrink/fatten, push/scale along normal  
 
@@ -144,6 +148,7 @@ With a camera selected enter Camera View (`Num0`), and the transform tools can b
   -> `Ctrl` - midpoint, `C` - constraint snap, `Shift` - disable constraint  
   -> `E` - start another cut  
 `Shift+K` - Select Knife tool (works on selection)  
+
 `J` - connect vertices (creates an edge between two verts, splits faces, "lightning bolt")  
 `Ctrl+R` - Loop Cut and Slide Tool  
 
@@ -220,20 +225,25 @@ With a camera selected enter Camera View (`Num0`), and the transform tools can b
 - use the Edge Split modifier to smooth object via angle (i.e. "smoothing groups"/faceting)
 - or use Auto Smooth on the data tab of the selected object
 
+- Make use of the fact that you can type in numbers for interactive transform tool
+  - e.g. `S` `Z` `0` to flatten something in Z, or `R` `Y` `90` to rotate 90º in Y
+
+- UV Mapping Menu
+  - press Reset, then Follow Active Quads to neatly layout selected faces
+
+- Straighten Edges according to normals
+  - select edges (e.g. `ctrl+RMB` for a path)
+  - set Transformation Orientation (3D View) to "Normal"
+  - set Pivot Center (3D View) to "Individual Origins"
+  - press `S` (for scale), and `Z` `Z` (to scale along local Z, i.e. normal direction), then `0` (to scale to 0)
+
 - use the Skin modifier to quickly build organic models, similarly to zbrush
   - in a mesh object extrude points (`Ctrl+LMB`) to build skinned branching structures
   - press `Ctrl+A` to scale vertices (i.e. skin thickness)
 - select 2 vertices and use 'Select Vertex Path' (`W` menu) to select all the edges between them (cool to mark UV seams for example)
 - the border of the camera view is selectable like any object, transform tools work on it!
 
-- Solving Addon Troubles
-  - duplicate addons: start blender in terminal, open the Addons panel, it'll show the paths
-  - missing addons: uncheck addon, save user prefs to make it disappear
-
 - use Select -> Select All by Trait -> Loose Geometry to help clean up your models
-
-- Make use of the fact that you can type in numbers for interactive transform tool
-  - e.g. s z 0 to flatten something in Z, or r y 90 to rotate 90º in y
 
 - use the `Auto Merge` button in 3D View to automatically merge vertices that are moved together
 
@@ -252,6 +262,9 @@ With a camera selected enter Camera View (`Num0`), and the transform tools can b
   - press Bake
   - in UV/Image Editor select Image/Save as Image to save the map
 
+- Solving Addon Troubles
+  - duplicate addons: start blender in terminal, open the Addons panel, it'll show the paths
+  - missing addons: uncheck addon, save user prefs to make it disappear
 
 ## Addons
 
