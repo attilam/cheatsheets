@@ -20,7 +20,7 @@ is_draft: true
 
 `Home` - view camera center (to fill 3d vp with camera clip)  
 
-`Ctrl+Alt+Num0` - move active camera to current view  
+`Ctrl+Alt+Num0` - move active camera to current viewport view  
 
 `Z` - toggle wireframe mode  
 `Shift+Z` - Toggle viewport render mode  
@@ -39,20 +39,15 @@ Properties Panel (`N`) -> `Lock camera to view` - to move active camera with 3d 
 
 `A` - toggle selection  
 
-`Shift+G` - Select Grouped Menu  
+`Shift+G` - Select Grouped Menu (e.g. parent, children, same type, color, layer, ...)  
 `Ctrl+G` - create new Group  
 `Ctrl+Shift+G` - add all objects to active object's group  
 
-`Ctrl+RMB` - select vertex/edge/face path (after 1 item already selected)  
-`Alt+RMB` - select vertex/edge/face loop (mouse direction to item midpoint decides loop orientation)  
+`Alt+RMB` - Select Menu (lists of all objects under cursor)
 
 `C` - circle (brush) selection, scrollwheel to set brush size  
 `B` - box select  
 `Ctrl+LMB` - freeform (lasso) select  
-
-`L` - select linked (cumulative)  
-`Ctrl+L` - select all connected  
-`Shift+G` - select similar  
 
 `H` - hide selected  
 `Shift+H` - set restrict view (hide others)  
@@ -65,6 +60,15 @@ Properties Panel (`N`) -> `Lock camera to view` - to move active camera with 3d 
 
 `M` - Move to Layer Menu
 
+### Edit mode selection
+
+`Ctrl+RMB` - select vertex/edge/face path (after 1 item already selected)  
+`Alt+RMB` - select vertex/edge/face loop (mouse direction to item midpoint decides loop orientation) 
+
+`L` - select linked (cumulative)  
+`Ctrl+L` - select all connected  
+`Shift+G` - select similar  
+
 ## Transformation
 
 `Ctrl+space` - Toggle 3D manipulator (Pie)  
@@ -75,12 +79,15 @@ Properties Panel (`N`) -> `Lock camera to view` - to move active camera with 3d 
   -> `G` - again to "edge slide" vertices!  
 `R` - rotate (press twice for trackball rotation)  
 `S` - scale  
+`Ctrl+M` - mirror  
   -> `X,Y,Z` - constrain to single axis  
   -> `Shift+X,Y,Z` - add constraint axis to transform on a plane  
     -> double tap axis keys to toggle local/global  
     -> type in numbers to specify exact transformation along selected axis  
 
 With a camera selected enter Camera View (`Num0`), and the transform tools can be used to tweak it easily.  
+
+To move/rotate/scale on a plane interactively hold `Shift` while dragging the arrow handle corresponding to the _normal_ of the plane.  
 
 ### Pivot
 
@@ -222,6 +229,10 @@ With a camera selected enter Camera View (`Num0`), and the transform tools can b
   - Data with 0-references gets deleted upon save/reopen
   - add a Fake User to keep 0-ref Data (via the F button in properties)
 
+- _Hover_ over any control and `Ctrl+C` to copy, or `Ctrl+V` to paste value (even colors!)
+
+- Blender's config file is just a scene file, so a way to migrate settings is to open it in the new Blender version
+
 - use the Edge Split modifier to smooth object via angle (i.e. "smoothing groups"/faceting)
 - or use Auto Smooth on the data tab of the selected object
 
@@ -281,6 +292,8 @@ With a camera selected enter Camera View (`Num0`), and the transform tools can b
 - LoopTools (builtin)
   - https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Modeling/LoopTools
   - very handy modelling tools in the `W` menu
+  - Arrange points around selection into a circle
+  - Relax, space out loop or path
 
 - BoolTool
   - https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Object/BoolTool
@@ -299,7 +312,7 @@ With a camera selected enter Camera View (`Num0`), and the transform tools can b
   - `Ctrl+C` - copy various attributes from one objects to another
 
 - Node Wrangler (builtin)
-  - lotsa useful node workflow enhancements
+  - lotsa useful/essential node workflow enhancements
 
 - Pie Menus Official (builtin)
   - `Z` - Shading
