@@ -273,6 +273,19 @@ To move/rotate/scale on a plane interactively hold `Shift` while dragging the ar
   - press Bake
   - in UV/Image Editor select Image/Save as Image to save the map
 
+- Dynamic Paint Procedural "Tech" Carving
+  - create a model as "canvas" and another as "brush"
+  - add Dynamic Paint Modifier to both
+  - on the Dynamics tab enable Dynamic Paint with the respectable setting for each
+  - on the Canvas object
+    - in Dynamic Paint Add Canvas, and set Surface Type to Weight
+    - on the Data tab new Vertex Group with the same name as the Dynamic Paint Output
+    - add a Mask modifier and use the created vertex group as input (invert if needed)
+    - optionally use the Solidify modifier on the result
+  - on the Brush object
+    - turn off editor and camera visibility
+    - use tricks, like Displacement modifier with a procedural texture for more interesting looks
+
 - Solving Addon Troubles
   - duplicate addons: start blender in terminal, open the Addons panel, it'll show the paths
   - missing addons: uncheck addon, save user prefs to make it disappear
