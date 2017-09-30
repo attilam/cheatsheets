@@ -355,6 +355,9 @@ To move/rotate/scale on a plane interactively hold `Shift` while dragging the ar
   - `3` / `4` - flip tile in X/Y
   - Hold `Alt` to pick tile in scene
 
+- PBR Materials
+  - http://www.3d-wolf.com/materials.html
+
 ### Check these out
 
 - Blendermada
