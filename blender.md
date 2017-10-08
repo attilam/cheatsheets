@@ -123,6 +123,8 @@ To move/rotate/scale on a plane interactively hold `Shift` while dragging the ar
 
 `Ctrl+A` - Apply Transformation menu
 
+`Alt+C` - Convert Menu (convert between mesh <-> curves)
+
 ## Edit Mode
 
 `Ctrl+Tab` - Toggle Verts/Edges/Faces mode
@@ -357,6 +359,14 @@ To move/rotate/scale on a plane interactively hold `Shift` while dragging the ar
 
 - PBR Materials
   - http://www.3d-wolf.com/materials.html
+
+- BRM-UVTools
+  - UV editing in the 3D viewport!
+  - https://github.com/leukbaars/BRM-UVTools
+
+- BRM-UVAlignMinMax
+  - align selected UVs to selection min/max
+  - https://github.com/leukbaars/BRM-UVAlignMinMax
 
 ### Check these out
 
