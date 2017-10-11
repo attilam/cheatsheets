@@ -15,13 +15,14 @@ is_draft: true
 
 - Edit-> Snap Settings menu to change snapping  
 
-`CMD+LMB Drag` - Transform with snapping    
-`CMD+Shift+LMB Drag` - Transform: snap to normal, Rotate: look at  
+`CMD+LMB Drag` - Transform with snapping  
+`CMD+Shift+LMB Drag` - Transform: snap to target surface normal, Rotate: look at point on target surface  
 
 `CMD+Alt+F` - Move object to view  
 `CMD+Shift+F` - Align object to view  
 
 `V` - held when Transform tool is active: snap to vertex  
+  - Hold `V` -> `LMB Drag` from active object's vertex to target object's vertex  
 
 `FF` or `Shift+F` - lock camera to GameObject  
 
