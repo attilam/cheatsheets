@@ -368,6 +368,9 @@ To move/rotate/scale on a plane interactively hold `Shift` while dragging the ar
   - align selected UVs to selection min/max
   - https://github.com/leukbaars/BRM-UVAlignMinMax
 
+- Yet Another Vertex Normal Editor
+  - https://github.com/fedackb/yavne
+
 ### Check these out
 
 - Blendermada
