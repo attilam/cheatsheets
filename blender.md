@@ -371,6 +371,12 @@ To move/rotate/scale on a plane interactively hold `Shift` while dragging the ar
 - Yet Another Vertex Normal Editor
   - https://github.com/fedackb/yavne
 
+- TexTools
+  - https://blenderartists.org/forum/showthread.php?443182-TexTools-for-Blender
+
+- Texture baking UI for Blender 
+  - https://github.com/leukbaars/BRM-BakeUI
+
 ### Check these out
 
 - Blendermada
