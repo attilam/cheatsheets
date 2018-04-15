@@ -292,6 +292,10 @@ To move/rotate/scale on a plane interactively hold `Shift` while dragging the ar
   - duplicate addons: start blender in terminal, open the Addons panel, it'll show the paths
   - missing addons: uncheck addon, save user prefs to make it disappear
 
+- Unlit ("Fullbright") material in Cycles
+  - Create an Emission shader
+  - Set its Strength to be controlled by "Is Camera Ray" of a Light Path node
+
 ## Addons
 
 - Blender Cloud (for sync)
@@ -372,7 +376,7 @@ To move/rotate/scale on a plane interactively hold `Shift` while dragging the ar
   - https://github.com/fedackb/yavne
 
 - TexTools
-  - https://blenderartists.org/forum/showthread.php?443182-TexTools-for-Blender
+  - http://renderhjs.net/textools/blender/
 
 - Texture baking UI for Blender 
   - https://github.com/leukbaars/BRM-BakeUI
