@@ -47,8 +47,20 @@ pop directory off, go back to previous
 $ popd
 ```
 
-## grep
+## Text Manipulation
 
 ```shell
 $ asar list app.asar | grep -v "^/node" # every line NOT (-v) starting with (^) "/node"
+```
+
+```shell
+$ sort log.csv | uniq > clean.csv
+```
+
+```shell
+$ grep -E 'Set Flat|Show Panorama' clean.csv > flatpano.csv
+```
+
+```shell
+$ egrep -o '([TLF][0-9].*){1,3}' clean.csv
 ```
