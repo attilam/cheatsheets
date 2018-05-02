@@ -89,6 +89,8 @@ is_draft: true
 
 `X` - create Visualize SOP from selected  
 
+`Shift+RMB` - (in viewport) Repeat create last node type
+
 ## Expressions
 
 `* ^ground*` - everything, but NOT anything that starts with 'ground'  
