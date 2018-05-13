@@ -10,22 +10,22 @@ is_draft: true
 
 ## Navigation
 
-`MMB` - pan
-`Shift+MMB` - orbit
-`Wheel` - zoom
-`double click MMB` or `F6` - Fit All
+`MMB` - pan  
+`Shift+MMB` - orbit  
+`Wheel` - zoom  
+`double click MMB` or `F6` - Fit All  
 
 ## Tools
 
-`Q` - Press Pull (i.e. extrude)
-`D` - Dimension Tool
-`L` - Line
-`X` - Construction (with a line selected turns it into a construction line)
-`P` - Project
-`M` - Move
-`J` - Joint
+`Q` - Press Pull (i.e. extrude)  
+`D` - Dimension Tool  
+`L` - Line  
+`X` - Construction (with a line selected turns it into a construction line)  
+`P` - Project  
+`M` - Move  
+`J` - Joint  
 
 ## Commands
 
-`Offset` - create wall thickness
-`Inspect -> Section Analysis` - create cutaways to peek inside objects
+`Offset` - create wall thickness  
+`Inspect -> Section Analysis` - create cutaways to peek inside objects  
