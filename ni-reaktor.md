@@ -1,9 +1,8 @@
 ---
 title: Native Instruments Reaktor
-kind: article
-keywords: reaktor, howto
+kind: cheatsheet
+keywords: [native instruments, audio, cheatsheet]
 created_at: 2016-oct-21 08:38:00
-is_draft: true
 ---
 
 # Native Instruments Reaktor

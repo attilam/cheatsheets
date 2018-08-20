@@ -1,9 +1,8 @@
 ---
 title: Ruby
 created_at: 2014-11-03 10:25:18 +0400
-kind: article
-keywords: ruby, howto
-is_draft: true
+kind: cheatsheet
+keywords: [code, cheatsheet]
 ---
 
 # Ruby

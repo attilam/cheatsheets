@@ -1,9 +1,8 @@
 ---
 title: How to node.js
-kind: article
-keywords: nodejs, node, js, javascript, howto
+kind: cheatsheet
+keywords: [js, javascript, code, cheatsheet]
 created_at: 2015-aug-12 09:58:00
-is_draft: true
 ---
 
 # node.js

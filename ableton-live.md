@@ -1,9 +1,8 @@
 ---
 title: Working With Ableton Live
-kind: article
-keywords: ableton, live, howto
+kind: cheatsheet
+keywords: [ableton, audio, cheatsheet]
 created_at: 2013-dec-06 09:04:00
-is_draft: true
 ---
 
 ## Keyboard Shortcuts

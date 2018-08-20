@@ -1,9 +1,8 @@
 ---
 title: Working With Modo
-kind: article
-keywords: modo, howto
+kind: cheatsheet
+keywords: [foundry, visual, cheatsheet]
 created_at: 2015-jun-02 21:42:00
-is_draft: true
 ---
 
 ## Useful Shortcuts

@@ -1,9 +1,8 @@
 ---
 title: MuseScore
-kind: article
-keywords: musescore, music, notation
+kind: cheatsheet
+keywords: [audio, notation, cheatsheet]
 created_at: 2016-dec-05 07:05:00
-is_draft: true
 ---
 
 ## General

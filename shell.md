@@ -1,9 +1,8 @@
 ---
 title: Working in the Shell
-kind: article
-keywords: shell, howto
+kind: cheatsheet
+keywords: [code, cheatsheet]
 created_at: 2015-jun-16 08:15:00
-is_draft: true
 ---
 
 ## Handy Shortcuts
@@ -12,7 +11,7 @@ is_draft: true
 
 `Ctrl+L` - clear screen  
 
-`Ctrl+U` - delete whole line  
+`Ctrl+U` - delete backwards to the start of the line  
 
 `Ctrl+K` - delete until end of line  
 

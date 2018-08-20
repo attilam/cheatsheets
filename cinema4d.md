@@ -1,9 +1,8 @@
 ---
 title: Working With Cinema 4D
-kind: article
-keywords: cinema4d, howto
+kind: cheatsheet
+keywords: [visual, cheatsheet]
 created_at: 2015-jun-03 18:38:00
-is_draft: true
 ---
 
 ## View

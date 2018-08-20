@@ -1,3 +1,8 @@
+---
+title: Working With Substance Designer
+kind: cheatsheet
+keywords: [visual, cheatsheet]
+---
 
 # Substance Designer
 

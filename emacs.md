@@ -1,9 +1,8 @@
 ---
 title: Working With Emacs
-kind: article
-keywords: emacs, howto
+kind: cheatsheet
+keywords: [code, cheatsheet]
 created_at: 2015-jun-03 20:01:00
-is_draft: true
 ---
 
 ## Basics

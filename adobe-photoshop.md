@@ -1,3 +1,8 @@
+---
+title: Working With Photoshop
+kind: cheatsheet
+keywords: [adobe, visual, cheatsheet]
+---
 
 # Adobe Photoshop
 

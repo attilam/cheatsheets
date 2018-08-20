@@ -1,9 +1,8 @@
 ---
 title: "Let's learn: Max/MSP"
 created_at: 2014-03-27 21:38:32 +0400
-keywords: max, msp, jit, gen, cycling74, max4live, live, ableton, howto
-kind: article
-is_draft: true
+keywords: [max, msp, jit, gen, cycling74, max4live, live, ableton, audio, visual, code, cheatsheet]
+kind: cheatsheet
 ---
 
 ## Create Objects

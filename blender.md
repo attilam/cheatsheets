@@ -1,9 +1,8 @@
 ---
 title: Working With Blender
-kind: article
-keywords: blender, howto
+kind: cheatsheet
+keywords: [visual, cheatsheet]
 created_at: 2013-jul-31 23:58:00
-is_draft: true
 ---
 
 ## Navigation/View

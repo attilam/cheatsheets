@@ -1,9 +1,8 @@
 ---
 title: PHP
 created_at: 2017-10-19 14:32:00 +0400
-kind: article
-keywords: php, howto
-is_draft: true
+kind: cheatsheet
+keywords: [code, cheatsheet]
 ---
 
 # PHP

@@ -1,8 +1,8 @@
 ---
 title: "Let's Learn: Objective-C"
 created_at: 2014-02-22 10:36:51 +0400
-kind: article
-is_draft: true
+kind: cheatsheet
+keywords: [apple, xcode, code, cheatsheet]
 ---
 
 ## XCode

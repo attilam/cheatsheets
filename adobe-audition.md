@@ -1,9 +1,8 @@
 ---
 title: Working With Adobe Audition
-kind: article
-keywords: adobe, audition, audio
+kind: cheatsheet
+keywords: [adobe, audio, cheatsheet]
 created_at: 2015-oct-02 08:52:00
-is_draft: true
 ---
 
 ## Playhead and selection

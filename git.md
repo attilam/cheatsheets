@@ -1,9 +1,8 @@
 ---
 title: Working With Git
 created_at: 2013-11-25 20:16:20 +0400
-kind: article
-keywords: git, howto
-is_draft: true
+kind: cheatsheet
+keywords: [cheatsheet, code]
 ---
 
 # GIT DVCS

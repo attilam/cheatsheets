@@ -1,9 +1,8 @@
 ---
 title: Working with Fusion 360
-kind: article
-keywords: fusion360, howto
+kind: cheatsheet
+keywords: [autodesk, visual, cheatsheet]
 created_at: 2018-05-13 10:08:44
-is_draft: true
 ---
 
 `S` - Sketch/Model Toolbox

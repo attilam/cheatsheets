@@ -1,9 +1,8 @@
 ---
 title: Working With GrafX2
-kind: article
-keywords: grafx2, pixelart, howto
+kind: cheatsheet
+keywords: [grafx2, pixelart, visual, cheatsheet]
 created_at: 2015-may-30 09:08:00
-is_draft: true
 ---
 
 ## Handy Shortcuts

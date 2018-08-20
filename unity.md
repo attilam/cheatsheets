@@ -1,9 +1,8 @@
 ---
 title: Working With Unity
-kind: article
-keywords: unity, howto
+kind: cheatsheet
+keywords: [code, cheatsheet]
 created_at: 2015-may-27 13:24:00
-is_draft: true
 ---
 
 ## Useful Keyboard Shortcuts

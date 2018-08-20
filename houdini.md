@@ -1,9 +1,8 @@
 ---
 title: Working With Houdini
-kind: article
-keywords: houdini, howto
+kind: cheatsheet
+keywords: [sidefx, visual, cheatsheet]
 created_at: 2014-oct-09 23:13:00
-is_draft: true
 ---
 
 ## Useful Keyboard Shortcuts

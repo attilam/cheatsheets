@@ -1,9 +1,8 @@
 ---
 title: Python
-kind: article
-keywords: python, howto
+kind: cheatsheet
+keywords: [code, cheatsheet]
 created_at: 2015-apr-14 23:22:00
-is_draft: true
 ---
 
 ## Reflection

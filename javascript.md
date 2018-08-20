@@ -1,9 +1,8 @@
 ---
 title: Javascripting
-kind: article
-keywords: javascript, js, howto
+kind: cheatsheet
+keywords: [code, cheatsheet]
 created_at: 2015-aug-12 09:59:00
-is_draft: true
 ---
 
 # Javascript

@@ -1,3 +1,8 @@
+---
+title: Working With Illustrator
+kind: cheatsheet
+keywords: [adobe, visual, cheatsheet]
+---
 
 # Adobe Illustrator
 

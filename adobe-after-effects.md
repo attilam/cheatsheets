@@ -1,3 +1,8 @@
+---
+title: Working With After Effects
+kind: cheatsheet
+keywords: [adobe, visual, cheatsheet]
+---
 
 # Adobe After Effects
 
